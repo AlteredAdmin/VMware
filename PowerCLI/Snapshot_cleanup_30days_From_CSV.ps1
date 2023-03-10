@@ -1,6 +1,5 @@
+<#
 ####################################################################
-$text = @"
-
 _______        _______ _______  ______ _______ ______       _______ ______  _______ _____ __   _
 |_____| |         |    |______ |_____/ |______ |     \      |_____| |     \ |  |  |   |   | \  |
 |     | |_____    |    |______ |    \_ |______ |_____/      |     | |_____/ |  |  | __|__ |  \_|
@@ -23,7 +22,7 @@ ETH: 0xef053b0d936746Df00C9CCe0454b7b8afb1497ac
 
 ####################################################################
 
-<#
+
 .SYNOPSIS
     Title: Delete Old Snapshots Using CSV
     OS Support: 
@@ -59,11 +58,9 @@ have serious consequences if not used properly. This script is a basic one, you 
     Author:         Altered Admin & ChatGPT
     Email:          
     Date:           Jan 30 2023
+####################################################################
 #>
 
-Write-Host $text
-
-####################################################################
 
 # Import the VMware PowerCLI module
 Import-Module VMware.PowerCLI

@@ -1,5 +1,5 @@
+<#
 ####################################################################
-$text = @"
 
 _______        _______ _______  ______ _______ ______       _______ ______  _______ _____ __   _
 |_____| |         |    |______ |_____/ |______ |     \      |_____| |     \ |  |  |   |   | \  |
@@ -23,7 +23,6 @@ ETH: 0xef053b0d936746Df00C9CCe0454b7b8afb1497ac
 
 ####################################################################
 
-<#
 .SYNOPSIS
     Delete 30 Day Old Snapshots WIth Error Handling
     OS Support:
@@ -43,12 +42,8 @@ ETH: 0xef053b0d936746Df00C9CCe0454b7b8afb1497ac
     Author:         Altered Admin
     Email:          
     Date:           Jan 13 2023
-#>
-
-Write-Host $text
-
 ####################################################################
-
+#>
 
 # Import the VMware PowerCLI module
 Import-Module VMware.PowerCLI
